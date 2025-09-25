@@ -1,0 +1,4 @@
+"scripts": {
+  "start": "node qa-web3-tx-verifier.js",
+  "test": "jest"
+}
