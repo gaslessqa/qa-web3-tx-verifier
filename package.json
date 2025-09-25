@@ -1,4 +1,20 @@
-"scripts": {
-  "start": "node qa-web3-tx-verifier.js",
-  "test": "jest"
+{
+  "name": "qa-web3-tx-verifier",
+  "version": "1.0.0",
+  "description": "QA script to verify the on-chain status of a transaction using ethers.js.",
+  "main": "qa-web3-tx-verifier.js",
+  "scripts": {
+    "start": "node qa-web3-tx-verifier.js",
+    "test": "jest"
+  },
+  "keywords": ["qa", "web3", "transaction", "ethers.js", "ethereum", "verification"],
+  "author": "Raúl Casado – GaslessQA",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ethers": "^6.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
